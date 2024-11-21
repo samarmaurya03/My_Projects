@@ -30,6 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+
 }
 #clock span {
     position: absolute;
@@ -68,4 +69,9 @@ body {
 }
 #s i {
     height: 130px;
+}
+
+#clock:hover{
+    box-shadow: -10px -10px 100px rgba(105, 93, 217, 0.9);
+    transition: 0.8s;
 }

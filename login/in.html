@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      
+      body {
+        background-color: #4A69BD; /* Background blue color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+      .container {
+        display: flex;
+        position: relative;
+      }
+      
+      .login-box {
+        background: white;
+        padding: 30px;
+        width: 300px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+      
+      .login-box h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+      }
+      
+      .login-box input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .login-box button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: #ff79c6;
+        color: white;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .login-box
+      
+</style>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <form>
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Log in</button>
+      </form>
+    </div>
+    <div class="signup-box">
+      <p>Don't have an account?</p>
+      <button onclick="window.location.href='#'">Sign up</button>
+    </div>
+  </div>
+</body>
+</html>
